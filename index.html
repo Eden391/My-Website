@@ -23,9 +23,31 @@
     height: 100%;
 }
 
+.myDivtwo {
+    background-color: beige;
+    text-align: center;
+    width: 240px;
+    height: 200px;
+
+}
+
+.myDiv3 {
+    background-color: beige;
+    text-align: left;
+    width: 400px;
+    height: 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+    height: 100%;
+}
+
 </style>
 <head>
-    <h1 style="text-align: center;">Alex's Corner</h1>
 <body>
     <style>
         body {
@@ -34,9 +56,21 @@
     </style>
     <div class="container">
         <div class="myDiv">
-            <h2>This is my website!</h2>
-            <p>a personal space just for me >-< </p>
-            <img src="sayori.jpg" alt="sayori" width="300" height="300">
+            <h2>Alexis' Website</h2>
+            <p>a personal space just for me >.< </p>
+            <img src="sayori.jpg" alt="sayori" width="240" height="250">
+            <div class="myDivtwo">
+                <h2>Tabs</h2>
+                <button onclick="window.location.href='about.html'">About Me</button>
+                <button onclick="window.location.href='artwork.html'">Artwork</button>
+                <button onclick="window.location.href='video-games.html'">Video Games</button>
+            </div>
+        
+    <div class="myDiv3">
+        <div class="header">
+         <h2>Description</h2>
+         <p>Hi there! This is my personal corner of the internet, where I share my thoughts, projects, hobbies, and more!</p>
+        
         </div>
         </div>
     </div>
