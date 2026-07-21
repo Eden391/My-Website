@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: Jersey;
+    src: url(Jersey10-Regular.ttf);
+}
+
+* {
+    font-family: Jersey, sans-serif;
+    letter-spacing: 5px;
+    color: white;
+}
+
+
+body {
+    background-image: url("windows-bg.jpg") ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.myDiv{
+        background-color: #074FB5;
+        text-align: center;
+        width: 600px;
+        height: 650px;
+        margin-top: 10px;
+        padding: 20px;
+        border-radius: 10px;
+}
