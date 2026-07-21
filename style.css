@@ -49,9 +49,16 @@ body {
 
 #Div2 {
     width: 300px;
-    height: 200px;
+    height: 250px;
     background-color: #56B897;
     border-radius: 10px;
     justify-content: left;
     text-align: center;
+}
+
+#gif {
+    border-radius: 10px;
+    width: 200;
+    height: 100px;
+    justify-content: center;
 }
