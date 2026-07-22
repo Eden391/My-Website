@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Jersey;
+    src: url(Jersey10-Regular.ttf);
+}
+
+* {
+    font-family: Jersey, sans-serif;
+    letter-spacing: 5px;
+    color: white;
+}
+
+
+body {
+    background-image: url("windows-bg.jpg") ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

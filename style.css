@@ -20,7 +20,7 @@ body {
 
 .container {
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     width: 600px;
     height: 650px;
@@ -64,6 +64,11 @@ body {
     width: 200;
     height: 100px;
     justify-content: center;
+}
+
+#blinkiesy {
+    display: flex;
+    justify-content: left;
 }
 
 .tab-link {
