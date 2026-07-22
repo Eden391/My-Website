@@ -21,16 +21,20 @@ body {
 
 .container {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
 }
 
 .myDiv{
         background-color: #074FB5;
-        text-align: center;
+        text-align: left;
         width: 600px;
         height: 650px;
         margin-top: 10px;
         padding: 20px;
         border-radius: 10px;
+}
+
+#beomgyu {
+    border-radius: 10px;
 }

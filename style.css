@@ -83,10 +83,11 @@ body {
 }
 
 #tab {
-    width: 210px;
-    height: 80px;
+    width: 200px;
+    height: 30px;
     background-color:#56B897;
     border-radius:12px;
     justify-content: left;
     text-align: center;
+    font-size: 30px;
 }
