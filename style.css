@@ -7,11 +7,11 @@
 * {
     font-family: Jersey, sans-serif;
     letter-spacing: 5px;
-    color: white;
+    color: #56B897;
 }
 
-body {
-    background-image: url("windows-bg.jpg") ;
+body{
+    background-image: url("windows-bg.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -24,14 +24,14 @@ body {
     flex-direction: column;
     width: 600px;
     height: 650px;
-    background-color: #074FB5;
     margin-top: 10px;
     padding: 20px;
     border-radius: 10px;
 }
 
 #header{
-    margin-bottom: 20px;
+    background-color:white;
+    border-radius: 10px;
 }
 
 #miku {
@@ -48,15 +48,17 @@ body {
     width: 300px;
     height: 700px;
     gap: 30px;
+    margin-top: 10px;
 }
 
 #Div2 {
     width: 300px;
     height: 250px;
-    background-color: #56B897;
+    background-color: white;
     border-radius: 10px;
     justify-content: left;
     text-align: center;
+    margin-top: 10px;
 }
 
 #gif {
@@ -90,7 +92,7 @@ body {
 #tab {
     width: 200px;
     height: 30px;
-    background-color:#56B897;
+    background-color:white;
     border-radius:12px;
     justify-content: left;
     text-align: center;
